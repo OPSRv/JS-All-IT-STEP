@@ -1,0 +1,65 @@
+.wrapper{
+	height: 100%;
+} 
+
+.box{
+	display: flex;
+	flex-flow: row nowrap;
+	width: 800px;
+	height: 200px;
+	background-color: pink;
+	padding: 10px;
+	font-family: Arial;
+}
+.list{
+	background: rgb(84,122,162);
+}
+ul{
+	list-style: none;
+	text-align: left;
+	padding: 0;
+}
+li{
+	width: 100%;
+	padding: 10px;
+	padding-right: 0;
+	padding-left: 10px;
+	width: 90px; 
+	color: #fff;
+}
+li:hover{
+	cursor: pointer;
+}
+.active{
+	background: rgb(80,111,255);
+}
+
+.text{
+	width: 700px;
+	padding: 5px;
+	border: 2px solid rgb(84,122,162);
+	border-left: none;  
+}
+p{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

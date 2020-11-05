@@ -1,0 +1,24 @@
+.wrapper{
+	height: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+} 
+.box{
+	width: 300px;
+	background-color: pink;
+	display: flex;
+	cursor: pointer;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	padding: 20px;
+	text-align: center;
+}
+button{
+	position: absolute;
+	top: 36px;
+	padding: 10px;
+}
+p{
+	display: block;
+}

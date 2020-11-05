@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+}
+th,td {
+  border: 1px solid #47fff6;
+}
+td{
+	width: 600px;
+	height: 50px;
+	padding: 5px;
+}
+th{
+	width: 182px;
+	height: 53px;
+	flex-flow: row nowrap;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+	padding: 5px;
+}
+.imgJoy{
+background-image: url(1.png);
+background-repeat:no-repeat;
+background-position:center;
+transition: .5s;
+}
+.imgSadness{
+background-image: url(2.png);
+background-repeat:no-repeat;
+background-position:center;
+transition: .5s;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<p>Задание 1
+Создать html-страницу с формой для логина пользователя и
+галочкой «Запомнить меня». После заполнения формы вывести на
+экран: «Привет, Имя! Я тебя запомнил/не запомнил». </p>
+		<div class='task_1'>
+			<form>
+				<span>Your login:</span>
+				<input type="text" id="Yourlogin">
+				<span>Your password:</span>
+				<input type="password" id="pas_task_1">
+				<span>Remember me</span>
+				<input type="checkbox" id="chec_task_1">
+				<button id="btn_task_1">Sing In</button>
+				<a href="#" id="a_task_1">Forgot password?</a>
+			</form>
+		</div>
+		<p>Задание 2
+Создать html-страницу с формой для регистрации пользователя. Форма должна состоять из указания почты, логина, пароля
+(2 раза). После заполнения формы вывести на экран: «На почту
+такую-то отправлено письмо с подтверждением». </p>
+	<div class='task_2'>
+		<form action="#" class="form_2"> 
+			<span class="span_2">
+				<label for="email_t2">Your email:</b></label>
+				<input id="email_t2" type="email">
+			</span>
+			<span class="span_2">
+				<label for="login_t2">Your login:</b></label>
+				<input id="login_t2" type="text">
+			</span>
+			<span class="span_2">
+				<label for="pas_t2">Your password</b></label>
+				<input id="pas_t2" type="password">
+			</span>
+			<span class="span_2">
+				<label for="rep_pas_t2">Repeat password</b></label>
+				<input id="rep_pas_t2" type="password">
+			</span>	
+			</form>
+		<button id="btn_task_2">Sing In</button>
+	</div>
+
+	<p>Задание 3
+Создать html-страницу с формой для заполнения информации
+о пользователе. После заполнения формы вывести всю введенную
+информацию в текстовом виде.</p>
+		<div class='task_3'>
+			<form action="#" class="form_3">
+			<span class="span_3">
+				<label for="firstname">First name:</b></label>
+				<input id="firstname" type="email">
+			</span>
+			<span class="span_3">
+				<label for="lastname">Last name:</b></label>
+				<input id="lastname" type="text">
+			</span>
+			<span class="span_3">
+				<label for="date">Birthday:</b></label>
+				<input id="date" type="date">
+			</span>
+			<span class="span_3_row">
+			<span>Gender: </b></span>
+				<input type="radio" id="female" name="gender" value="Female">
+				<label for="female">Female</label>
+    			<input type="radio" id="male" name="gender" value="Male">
+    			<label for="male">Male</label>
+			</span>
+			<span class="span_3">
+				<label for="Country">Country:</b></label>
+				<select name="country" id="country">
+				    <option value="Україна" selected>Україна</option>
+				    <option value="Абхазия">Абхазия</option>
+				    <option value="США">США</option>
+					<option value="Австралия">Австралия</option>
+				</select>
+			</span>
+			<span class="span_3">
+				<label for="city">City:</b></label>
+				<select name="city" id="city">
+					<option value="Харків">Харків</option>
+					<option value="Рівне" selected>Рівне</option>
+					<option value="Київ">Київ</option>
+				</select>
+			</span>
+			<span class="span_4">
+				<span>skills</span>
+				<input type="checkbox" id="html" value="HTML">
+  				<label for="html">HTML</label>
+				<input type="checkbox" id="css" value="CSS">
+  				<label for="css">CSS</label>
+				<input type="checkbox" id="js" value="JS">
+  				<label for="js">JS</label>
+				<input type="checkbox" id="php" value="PHP">
+  				<label for="php">PHP</label>
+  				<input type="checkbox" id="cplus" value="C++">
+  				<label for="cplus">C++</label>
+				<input type="checkbox" id="java" value="JAVA">
+  				<label for="java">JAVA</label>
+				<input type="checkbox" id="csharp" value="C#">
+  				<label for="csharp">C#</label>
+				<button id="btn_save_task_3">Save</button>
+			</span>
+</form>
+
+
+
+
+		</div>
+
+		
+		<div class='task_4'>
+			<div class="rgb">
+				<form action="#">
+				<span class="color">R</span>
+					<input type="number" id="redColor" max="255" min="0">
+				<span class="color">G</span>
+					<input type="number" id="greenColor" max="255" min="0">
+				<span class="color">B</span>
+					<input type="number" id="blueColor" max="255" min="0">
+				</div>
+				<div class="btn">
+					<button id="addColor">Add color</button>
+			</div>
+</form>
+		</div>
+
+		<div class='task_5'>
+			<div class="allQuestion">
+			<span class="bold">All question:</span>
+			<hr>
+			
+				
+			</div>
+			<span class="bold">Add new question</span>
+			<form action="#">
+				<div class="form_body">
+					<div class="flexForm">
+					<span>Question:</span>
+					<input type="text" id="question">
+					</div>
+					<div class="flexForm">
+					<span>Correct answer:</span>
+					<input type="text" id="correctAnswer">
+					</div>
+					<div class="flexForm">
+					<span>Wrong answer:</span>
+					<input type="text" id="wrongAnswer">
+					</div>
+				</div>
+				<button id="btn_task_5">Add</button>
+			</form>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+
+</html>

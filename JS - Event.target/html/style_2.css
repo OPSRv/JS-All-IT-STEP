@@ -1,0 +1,29 @@
+/*.active{
+	background-color: #000;
+	color: #fff;
+	padding: 25px;
+}*/
+*{
+	box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100%;
+  background-color: pink;
+} 
+p{
+	font-size: 50px;
+	padding: 10px; 
+} 
+#position_X{
+align-self: center;
+}
+#position_Y{
+	align-self: center;
+}

@@ -1,0 +1,20 @@
+.quote_style{
+/*	padding: 20px;*/
+}
+
+.quote_null{
+background-color: rgb(99, 107, 0);
+padding: 20px;
+display: flex;
+transition: 2s;
+border-radius: 5px;
+}
+img{
+align-items: flex-end;
+width:131px;
+height: 77px;
+transform: rotate(180deg);
+align-self: flex-end;
+float: right;
+display: none;
+}

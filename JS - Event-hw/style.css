@@ -1,0 +1,74 @@
+body{
+	background-color: #F9FAFF;
+	font-family: arial;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+}
+.wrapper{
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+aside{
+   border: 1px solid silver;
+   height: 25%;
+   width: 250px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   }
+  aside>p{
+	font-weight: bold;
+	padding-left: 5px;
+}
+article>img{
+width: 70%;
+}
+li {
+	list-style-type: none;
+	padding: 5px; 
+   }
+   li:hover{
+font-weight: bold;
+color: brown;
+   }
+
+ul {
+    padding-left: 0;
+   }
+   main{
+   	width: 900px;
+   }
+.text_page {
+display: block;
+}
+
+.text_from_list{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

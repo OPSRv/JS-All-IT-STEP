@@ -1,0 +1,20 @@
+body{
+margin: 0; 
+padding: 0;
+}
+.box-container{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,.6);
+	position: relative;
+	overflow: hidden; 
+}
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: mediumvioletred;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: .1s; 
+}

@@ -1,0 +1,14 @@
+.users{
+	list-style-type: none; 
+}
+.users li {
+	padding: 10px 5px;
+}
+.red{
+	background-color: red;
+	border: 3px inset pink;  
+}
+.green{
+	background-color: green;
+	border: 3px inset brown;
+}

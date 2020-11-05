@@ -1,0 +1,22 @@
+.wrapper{
+	background-color: pink;
+	width: 800px;
+	font-family: sans-serif;
+}
+.header_news{
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+}
+.text{
+	padding: 10px;
+}
+button{
+	height: 20px;
+}
+h3{
+	margin: 0;
+}
+.box{
+display: block;
+}

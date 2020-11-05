@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+			.mess{
+			width: 100vw;
+			height: 0vh;
+			background-color: rgba(0,0,0,.6);
+			position: absolute;
+			top: 0; 
+			left: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			overflow: hidden;
+			transition: height 1s;
+		}
+		.text{
+			background-color: #fff;
+			padding: 25px;
+			width: 70%;
+		}
+		span{
+			position: absolute;
+			right: 20px;
+			top: 10px;
+			font-size: 36px;
+			font-weight: bold;
+			font-style: italic;
+			background-color: #fff;
+			padding: 0 5px;
+			cursor: pointer;
+	</style>
+</head>
+<body>
+	<button>Show</button>
+
+<div class="mess">
+	<div class="text">
+			<span>X</span>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, officia quos repellendus eveniet facilis repudiandae voluptatum nostrum ullam laborum perspiciatis magni nesciunt commodi, distinctio sint ducimus adipisci sunt dolorum iusto!
+	</div>
+</div>
+
+
+
+<form>
+	<button>Show</button>
+
+</form>
+	<a href="https://google.com">Google</a>
+
+<script>
+let $btn = document.querySelector('button');
+let $box = document.querySelector('.mess')
+let close = document.querySelector('span')
+
+
+$btn.addEventListener('click', function(event){
+	$box.style.height = '100vh';
+})
+$box.addEventListener('click',function(event){
+	event.stopPropagation();//
+	box.style.height = '0vh';
+	console.log('close');
+},true)
+$box.addEventListener('click',function(){
+	alert('error');
+	console.log('$box');
+},true)
+
+// document.querySelector('button').addEventListener('click',function(){
+// 	event.preventDefault(); //забирає налаштування по замовчуванню
+// 	console.log('Hello')})
+
+// 	document.querySelector('a').addEventListener('click', function(){
+// 		event.preventDefault();//не переходить на силку//забирає налаштування по замовчуванню
+// 	})
+
+
+
+</script>
+</body>
+</html>

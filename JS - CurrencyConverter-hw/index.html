@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Currency Converter</title>
+	<link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="1.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Currency Converter</h1>
+      <div class="buy_sale">
+      <span class="span_buy_sale" id="buy">BUY</span>
+      <span class="span_buy_sale" id="sale">SALE</span>
+      </div>
+    </div>
+    <ul class="currencies">
+    	<li><img src="https://www.countryflags.io/UA/shiny/64.png"><div class="UA">
+    		<input type="text" placeholder="0.0000" id="inputUA" class="currency">
+    	</div></li>
+    	<li><img src="https://www.countryflags.io/US/shiny/64.png"><div class="US">
+    		<input type="text" placeholder="0.0000" id="inputUS" class="currency">
+    	</div></li>
+    	    	<li><img src="https://www.countryflags.io/EU/shiny/64.png"><div class="EU">
+    		<input type="text" placeholder="0.0000" id="inputEU" class="currency">
+    	</div></li>
+    	<li><img src="https://www.countryflags.io/RU/shiny/64.png"><div class="RU">
+    		<input type="text" placeholder="0.0000" id="inputRU" class="currency">
+    	</div></li>
+    </ul>
+	<div class="exchangerate">
+	</div>
+  <div class="footer">
+  	<span>&copy; PrivatBank API</span>
+  </div>
+</div>
+	<script src="main.js"></script>
+</body>
+</html>
